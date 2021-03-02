@@ -1,0 +1,9 @@
+docker build -t my-container .
+
+docker run -it my-container bash
+
+Check python version
+# python --version
+
+Check if sshd service is running
+# ps ax | grep 'sshd' 
